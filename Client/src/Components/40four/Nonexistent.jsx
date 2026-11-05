@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Nonexistent.css";
 import "./nonexistent.css";
 
 function Nonexistent() {
