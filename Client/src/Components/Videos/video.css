@@ -1,0 +1,29 @@
+.video-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+
+   .single-video{
+    width: 100%;
+    background-color: red;
+    margin: 10px 5px;
+    padding: 80px;
+
+   }
+
+   @media (min-width:500px){
+    .video-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+   }
+   }
+   @media (min-width:900px){
+    .video-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+   }}
